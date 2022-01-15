@@ -14,6 +14,7 @@
 .top-content{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     
 }
@@ -31,14 +32,16 @@ h1{
 }
 a{
     text-decoration: none;
+}
+.fast-button{
     color: #ffffff;
     background-color: #E02C6D;
     padding: 10px 24px;
+    line-height: 20px;
+    border-radius: 25px;
     display: inline-block;
     margin-top: 20px;
     font-weight: 700;
-    line-height: 20px;
-    border-radius: 25px;
 }
 .content-item i{
     color: #ffffff;
@@ -46,10 +49,10 @@ a{
  /*-------------------------------------
   Popular-Collection style
   --------------------------------------- */
-.Popular-Collection{
-    width: 1100px;
-}
-.Popular-Collection>h2{
+  .Popular-Collection{
+      margin-bottom: 100px;
+  }
+  .Popular-Collection>h2{
     margin-top: 50px;
     font-size: 28px;
     text-align: center;
@@ -78,6 +81,23 @@ a{
 }
 .stra i{
     color: #FB8200;
+}
+.button-two{
+    color: #E02C6D;
+    font-weight: 700;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5%;
+}
+footer{
+    color: #ffffff;
+    background-color: #0A0826;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
 }
 
 @media only screen and (max-width: 767px)  {
@@ -111,6 +131,10 @@ a{
     h1{
         font-size: 30px;
     }
+    
+.button-two{
+    margin-right: 20%;
+}
 
 
 }
