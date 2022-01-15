@@ -28,18 +28,18 @@
     width: 80%;
     transition: all 2s ease-in-out;
     overflow: hidden;
-    background-color: red;
+    background-color: rgb(250, 132, 132);
     position: relative;
     animation-name: example;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
   @keyframes example {
-    0%   {background-color:red;}
-    25%  {background-color:yellow;}
-    50%  {background-color:blue;}
-    75%  {background-color:green;}
-    100% {background-color:red;}
+    0%   {background-color:rgb(255, 157, 157);}
+    25%  {background-color:rgb(253, 253, 186);}
+    50%  {background-color:rgb(158, 158, 255);}
+    75%  {background-color:rgb(168, 255, 168);}
+    100% {background-color:rgb(255, 184, 184);}
   }
 h1{
     font-weight: 700;
