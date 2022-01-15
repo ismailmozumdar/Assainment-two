@@ -92,11 +92,21 @@ a{
 footer{
     color: #ffffff;
     background-color: #0A0826;
-    height: 120px;
+    height: 211px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+
+}
+span i{
+ color: white;
+ background-color: rgba(255, 255, 255, 0.315);
+ padding: 15px;
+ font-size: 20px;
+ border-radius: 50%;
+ margin-right: 5px;
+
 
 }
 
