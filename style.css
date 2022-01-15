@@ -13,15 +13,16 @@
   --------------------------------------- */
 .top-content{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    
 }
 .content-item{
-    width: 50%;
-    margin-left: 90px;
+    width: 40%;
 }
 .img-modify{
     border-radius: 50%;
-    box-shadow: 5px 5px 20px ;
+    box-shadow: 5px 5px 15px ;
     padding: 20px;
 }
 h1{
@@ -77,4 +78,42 @@ a{
 }
 .stra i{
     color: #FB8200;
+}
+
+@media only screen and (max-width: 767px)  {
+    .top-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .content-item{
+        width: 80%;
+        text-align: center;
+    }
+    .content-item .img-modify{
+        width: 80%;
+        margin-top: 50px;
+    }
+    
+    .content-item .two{
+        margin-left:0px;
+        margin-top:100px;
+    }
+    .Popular-Collection{
+        width: 100%;
+    }
+    .producks-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    .Popular-Collection>h2{
+        margin-top: 50px;
+        text-align: justify;
+        font-size: 28px;
+    }
+
 }
