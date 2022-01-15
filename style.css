@@ -48,18 +48,18 @@ a{
   --------------------------------------- */
 .Popular-Collection{
     width: 1100px;
-    margin-left: 110px;
 }
 .Popular-Collection>h2{
     margin-top: 50px;
-    text-align: center;
     font-size: 28px;
+    text-align: center;
 }
 .producks-content{
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+    justify-items: center;
 }
 .produck{
     width: 300px;
@@ -102,18 +102,15 @@ a{
     }
     .Popular-Collection{
         width: 100%;
+        align-items: center;
+        justify-items: center;
     }
     .producks-content{
         grid-template-columns: repeat(1, 1fr);
     }
-
     h1{
         font-size: 30px;
     }
-    .Popular-Collection>h2{
-        margin-top: 50px;
-        text-align: justify;
-        font-size: 28px;
-    }
+
 
 }
